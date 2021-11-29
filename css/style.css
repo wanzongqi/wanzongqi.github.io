@@ -241,7 +241,7 @@ body {
   content: '';
   width: 100%;
   height: 100vh;
-  border: 4px #000 solid;
+  border: 4px #002a56 solid;
   position: fixed;
   top: 0;
   left: 0;
@@ -274,22 +274,22 @@ ul {
 }
 a {
   text-decoration: none;
-  color: #000;
+  color: #002a56;
 }
 body {
   font-family: 'Inter', 'Noto Sans SC', helvetica, arial;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
-  color: #000;
-  background-color: #fff;
+  color: #002a56;
+  background-color: #fffcf2;
 }
 .header {
-  border: 2px solid #000;
+  border: 2px solid #002a56;
   font-size: 0.875rem;
   font-weight: 500;
   line-height: 1.25rem;
-  color: #000;
+  color: #002a56;
 }
 .header-inner {
   display: flex;
@@ -325,7 +325,7 @@ body {
   left: 0;
   bottom: 0;
   width: 0;
-  border-bottom: solid 1px #000;
+  border-bottom: solid 1px #002a56;
 }
 .menu-item:hover:after {
   width: 100%;
@@ -375,18 +375,18 @@ body {
 }
 .footer {
   margin-top: 3.5rem;
-  border: 2px #000 solid;
+  border: 2px #002a56 solid;
   font-size: 0.75rem;
   font-weight: 400;
   line-height: 1.25rem;
-  color: #000;
+  color: #002a56;
 }
 .footer .footer-text {
   margin-top: 2rem;
   margin-bottom: 3.5rem;
 }
 .post-list a {
-  background-image: linear-gradient(#fff, #fff), linear-gradient(#000, #000);
+  background-image: linear-gradient(#fffcf2, #fffcf2), linear-gradient(#002a56, #002a56);
   background-size: 100% 1px, 0% 1px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat, no-repeat;
@@ -401,7 +401,7 @@ body {
   font-size: 1.75rem;
   font-weight: 700;
   line-height: 2.25rem;
-  color: #ddd;
+  color: #ced6df;
 }
 .post-list-item {
   display: flex;
@@ -415,7 +415,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
-  color: #000;
+  color: #002a56;
   font-variation-settings: 'wght' 500;
 }
 .post-list-item .post-date {
@@ -425,9 +425,9 @@ body {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.25rem;
-  color: #000;
+  color: #002a56;
   line-height: 1.5rem;
-  color: #bababa;
+  color: #9faab5;
 }
 @media (max-width: 480px) {
   .post-list-item {
@@ -464,19 +464,19 @@ body {
   font-size: 1.75rem;
   font-weight: 700;
   line-height: 2.25rem;
-  color: #000;
+  color: #002a56;
 }
 .post-gallery-item .post-info .post-date {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.25rem;
-  color: #000;
+  color: #002a56;
 }
 .post-gallery-item .post-img {
   width: 50%;
 }
 .post-gallery-item a {
-  background-image: linear-gradient(#fff, #fff), linear-gradient(#000, #000);
+  background-image: linear-gradient(#fffcf2, #fffcf2), linear-gradient(#002a56, #002a56);
   background-size: 100% 1px, 0% 1px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat, no-repeat;
@@ -505,7 +505,7 @@ body {
   font-size: 0.875rem;
   font-weight: 500;
   line-height: 1.25rem;
-  color: #000;
+  color: #002a56;
   display: flex;
 }
 .pagination:before {
@@ -524,7 +524,7 @@ body {
   left: 0;
   bottom: 0;
   width: 0;
-  border-bottom: solid 1px #000;
+  border-bottom: solid 1px #002a56;
 }
 .page-number:hover:after {
   width: 100%;
@@ -557,14 +557,14 @@ body {
   font-size: 1.75rem;
   font-weight: 700;
   line-height: 2.25rem;
-  color: #000;
+  color: #002a56;
 }
 .profile .profile-content .profile-body {
   font-family: 'Inter', 'Noto Sans SC', helvetica, arial;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
-  color: #000;
+  color: #002a56;
 }
 .profile .profile-content .profile-link {
   margin-top: 0;
@@ -572,7 +572,7 @@ body {
   font-size: 0.875rem;
   font-weight: 500;
   line-height: 1.25rem;
-  color: #000;
+  color: #002a56;
 }
 .profile .profile-image {
   width: 50%;
@@ -605,68 +605,68 @@ h1 {
   font-size: 1.75rem;
   font-weight: 700;
   line-height: 2.25rem;
-  color: #000;
+  color: #002a56;
 }
 h2 {
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 2rem;
-  color: #000;
+  color: #002a56;
 }
 h3 {
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.5rem;
-  color: #000;
+  color: #002a56;
 }
 h4 {
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.25rem;
-  color: #000;
+  color: #002a56;
 }
 h5 {
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.25rem;
-  color: #000;
+  color: #002a56;
 }
 h6 {
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.25rem;
-  color: #000;
+  color: #002a56;
 }
 p {
   font-family: 'Inter', 'Noto Sans SC', helvetica, arial;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
-  color: #000;
+  color: #002a56;
 }
 strong {
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.5rem;
-  color: #000;
+  color: #002a56;
 }
 em {
   font-size: 1rem;
   font-weight: 400;
   font-style: italic;
   line-height: 1.5rem;
-  color: #000;
+  color: #002a56;
 }
 del {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
   text-decoration: line-through;
-  color: #000;
+  color: #002a56;
 }
 .post-content a {
   padding-bottom: 2px;
-  background-image: linear-gradient(#000, #000), linear-gradient(#000, #000);
+  background-image: linear-gradient(#002a56, #002a56), linear-gradient(#002a56, #002a56);
   background-size: 100% 1px, 0 2px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat, no-repeat;
@@ -679,7 +679,7 @@ blockquote {
   margin-left: 0;
   margin-right: 0;
   margin-top: 1rem;
-  border-left: 0.25rem solid #bababa;
+  border-left: 0.25rem solid #9faab5;
 }
 blockquote p {
   margin-left: 1rem;
@@ -699,7 +699,7 @@ blockquote blockquote {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
-  color: #000;
+  color: #002a56;
   margin-top: 0.5rem;
 }
 .post-content ol {
@@ -734,7 +734,7 @@ dl dt {
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.5rem;
-  color: #000;
+  color: #002a56;
 }
 dl dt::after {
   content: " :";
@@ -755,13 +755,13 @@ dl dd {
   font-size: 1.75rem;
   font-weight: 700;
   line-height: 2.25rem;
-  color: #000;
+  color: #002a56;
 }
 .post-head .post-info .post-date {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.25rem;
-  color: #000;
+  color: #002a56;
 }
 .post-head .post-img {
   margin-top: 2rem;
@@ -770,7 +770,7 @@ dl dd {
   margin-top: 3.5rem;
 }
 .post-footer a {
-  background-image: linear-gradient(#fff, #fff), linear-gradient(#000, #000);
+  background-image: linear-gradient(#fffcf2, #fffcf2), linear-gradient(#002a56, #002a56);
   background-size: 100% 1px, 0% 1px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat, no-repeat;
@@ -786,7 +786,7 @@ dl dd {
   font-size: 0.875rem;
   font-weight: 500;
   line-height: 1.25rem;
-  color: #000;
+  color: #002a56;
 }
 .post-nav .prev-item {
   display: flex;
@@ -816,7 +816,7 @@ dl dd {
 .vcontent p {
   margin-top: 0 !important;
   font-size: 0.875rem !important;
-  color: #000 !important;
+  color: #002a56 !important;
 }
 code {
   font-family: 'Roboto Mono', menlo, monospace;
@@ -861,7 +861,7 @@ pre {
 table,
 td,
 th {
-  border: #000 solid 1px;
+  border: #002a56 solid 1px;
   width: 100%;
   text-align: left;
 }
@@ -914,14 +914,14 @@ img {
   border: 0;
 }
 .gist a {
-  color: #bababa;
+  color: #9faab5;
   background-image: none !important;
 }
 blockquote>footer {
   margin: 0 1rem;
   padding: 0.5rem 0;
   font-size: 0.75rem;
-  color: #bababa;
+  color: #9faab5;
 }
 blockquote>footer cite {
   margin-left: 0.5rem;
@@ -930,24 +930,24 @@ blockquote>footer cite::before {
   content: " — ";
 }
 blockquote>footer strong {
-  color: #bababa;
+  color: #9faab5;
   font-size: 0.75rem;
 }
 blockquote>footer a {
-  color: #bababa;
+  color: #9faab5;
   background-image: none !important;
 }
 figcaption {
   font-family: roboto-mono, menlo, monospace;
   font-size: 0.75rem;
   padding: 0.5rem 0;
-  color: #bababa;
+  color: #9faab5;
 }
 figcaption span {
   padding-right: 0.5rem;
 }
 figcaption a {
-  color: #bababa;
+  color: #9faab5;
   background-image: none !important;
 }
 blockquote.pullquote.left {
@@ -971,14 +971,14 @@ ul li.task-list-item>input[type=checkbox] {
   opacity: 1;
 }
 ul li.task-list-item>input[type=checkbox][checked]:before {
-  background: #000;
+  background: #002a56;
   -webkit-mask-image: url("../icon/checkbox-checked.svg");
   -webkit-mask-position: center center;
   mask-image: url("../icon/checkbox-checked.svg");
   -webkit-mask-repeat: no-repeat;
 }
 ul li.task-list-item>input[type=checkbox]:before {
-  background: #000;
+  background: #002a56;
   -webkit-mask-image: url("../icon/checkbox-default.svg");
   -webkit-mask-position: center center;
   mask-image: url("../icon/checkbox-default.svg");
@@ -1002,7 +1002,7 @@ ul li.task-list-item>input[type=checkbox]:before {
 }
 .icon {
   display: block;
-  background-color: #000;
+  background-color: #002a56;
   width: 1.25rem;
   height: 1.25rem;
 }
@@ -1019,15 +1019,15 @@ ul li.task-list-item>input[type=checkbox]:before {
   mask-image: url("../icon/arrow-right.svg");
 }
 .h-line-primary {
-  background-color: #000;
+  background-color: #002a56;
   height: 1px;
 }
 .h-line-secondary {
-  background-color: #bababa;
+  background-color: #9faab5;
   height: 1px;
 }
 hr {
-  background-color: #ddd;
+  background-color: #ced6df;
   height: 1px;
   border: 0;
 }
@@ -1038,17 +1038,17 @@ hr {
 }
 .tag-title {
   margin: 0.75rem 0;
-  color: #bababa;
+  color: #9faab5;
   font-size: 0.875rem;
 }
 .tag-title a {
-  color: #bababa;
+  color: #9faab5;
 }
 .post-tag {
   font-size: 0.75rem;
   font-weight: 500;
   line-height: 1rem;
-  border: 1px solid #000;
+  border: 1px solid #002a56;
   margin-right: 0.25rem;
   margin-bottom: 0.25rem;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
@@ -1058,8 +1058,8 @@ hr {
   background-image: none !important;
 }
 .post-tag:hover {
-  background-color: #000;
+  background-color: #002a56;
 }
 .post-tag:hover a {
-  color: #fff;
+  color: #fffcf2;
 }
