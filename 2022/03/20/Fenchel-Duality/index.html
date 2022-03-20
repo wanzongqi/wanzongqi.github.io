@@ -14,7 +14,7 @@
 
 
 
-<title>Archive: 2022 | Random Memories</title>
+<title>Fenchel Duality | Random Memories</title>
 
 
 
@@ -129,52 +129,81 @@
 
       <div class="main">
         <div class="flex-container">
-          <div class="post-list">
-    
-    
+          <article id="post">
 
-        
-
-        
-            <div class="year-title">2022</div>
-        
-
-        <div class="post-list-item">
-            <div class="post-title">
-            <a href="/2022/03/20/Fenchel-Duality/">
-                
-                    Fenchel Duality
-                
-                </a> 
-            </div>
+  
+    <div class="post-head">
+    <div class="post-info">
+        <div class="tag-list">
             
-            <span class="post-date">Mar 20, 2022</span>
-        </div>
-
-    
-
-        
-
-        
-
-        <div class="post-list-item">
-            <div class="post-title">
-            <a href="/2022/03/01/%E9%93%BE%E6%8E%A5%E6%94%B6%E8%97%8F%E5%A4%B9/">
                 
-                    链接收藏夹
-                
-                </a> 
-            </div>
+                    <span class="post-tag">
+                        <a href="/tags/Analysis/">
+                            Analysis
+                        </a>
+                    </span>    
+                           
             
-            <span class="post-date">Mar 1, 2022</span>
         </div>
-
-    
-    <div id="paginator">
+        <div class="post-title">
+            
+            
+                Fenchel Duality
+            
+            
+        </div>
+        <span class="post-date">
+            Mar 20, 2022
+        </span>
+    </div>
+    <div class="post-img">
         
+            <div class="h-line-primary"></div>
+              
     </div>
 </div>
+    <div class="post-content">
+    <h2 id="Fenchel-conjugate"><a href="#Fenchel-conjugate" class="headerlink" title="Fenchel conjugate"></a>Fenchel conjugate</h2><p>尽管Fenchel Duality可以对非凸的函数定义，我们这里仍然只考虑凸函数。一个凸函数$f: \mathbb{R}^n \mapsto \mathbb{R}$的次梯度$\partial f$可以看作从$\mathbb{R}^n$到$2^{\mathbb{R}^n}$的映射。现在的问题是，对于一个给定的$s\in \mathbb{R}^n$, 能否找到一个$x\in \mathbb{R}^n$使得$s\in \partial f(x)$呢。对于凸函数，这个问题就十分容易了,因为$0\in \partial f(x)-\{s\}$，于是实际上$x=\arg\inf_{x} (f(x)-\langle s,x\rangle)$。这里集合的加减法使用了<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Minkowski_addition">Minkowski sum</a>。看起来$\inf (f(x)-\langle s,x \rangle)$对我们的问题相当重要。事实上，这正是$f$的Fenchel dual的定义。</p>
+<p><strong>定义1(Fenchel conjugate)</strong> 假设$f: \mathbb{R}^n \mapsto \mathbb{R}\cup{+\infty}$不恒为$+\infty$，且被某个仿射函数minorized。$f$的fenchel conjugate定义为$$f^*(s) = \sup \{ \langle s,x \rangle-f(x)| x\in \mbox{dom} f \}$$</p>
+<p><strong>定义2(Legendre-Fenchel变换)</strong> Legendre-Fenchel变换将$f$变为$f^*$</p>
+<p>上面的定义显然依赖于内积形式$\langle \cdot,\cdot \rangle$,不同的内积形式导出不同的定义。并且由Fenchel conjugate的定义，显然有下面的Fenchel不等式。</p>
+<p><strong>定理3(Fenchel不等式)</strong> 对任意$(x,s)\in \mbox{dom} f\times \mathbb{R}^n$, 有$f(x)+f^*(s)\geq \langle x,s \rangle$</p>
+<h2 id="Fenchel不等式与-L-p-范数以及Young不等式"><a href="#Fenchel不等式与-L-p-范数以及Young不等式" class="headerlink" title="Fenchel不等式与$L^p$范数以及Young不等式"></a>Fenchel不等式与$L^p$范数以及Young不等式</h2>
+</div> 
 
+<script>
+    window.onload = detectors();
+</script>
+    <div class="post-footer">
+    <div class="h-line-primary"></div>
+    <nav class="post-nav">
+        <div class="prev-item">
+           
+        </div>
+        <div class="next-item">
+            
+                <div class="icon arrow-right"></div>
+                <div class="post-link">
+                  <a href="/2022/03/01/%E9%93%BE%E6%8E%A5%E6%94%B6%E8%97%8F%E5%A4%B9/">Next</a>  
+                </div>  
+            
+        </div>
+    </nav>
+</div>
+
+    
+      <div class="post-comment">
+
+     
+
+     
+    
+    
+
+</div>
+     
+  
+</article>
         </div>
       </div>
       
