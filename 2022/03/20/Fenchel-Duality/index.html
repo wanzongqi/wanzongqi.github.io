@@ -182,11 +182,6 @@
     <nav class="post-nav">
         <div class="prev-item">
            
-                <div class="icon arrow-left"></div>
-                <div class="post-link">
-                    <a href="/2022/03/21/Mirror-Descent-%E5%9C%A8%E5%AF%B9%E5%81%B6%E7%A9%BA%E9%97%B4%E4%B8%AD%E5%81%9A%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D/">Prev</a>
-                </div>
-            
         </div>
         <div class="next-item">
             
@@ -232,5 +227,20 @@
 
     </div>
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>
