@@ -14,7 +14,7 @@
 
 
 
-<title>Fenchel Duality | Random Memories</title>
+<title>Fenchel对偶性 | Random Memories</title>
 
 
 
@@ -148,7 +148,7 @@
         <div class="post-title">
             
             
-                Fenchel Duality
+                Fenchel对偶性
             
             
         </div>
@@ -163,12 +163,15 @@
     </div>
 </div>
     <div class="post-content">
-    <h2 id="Fenchel-conjugate"><a href="#Fenchel-conjugate" class="headerlink" title="Fenchel conjugate"></a>Fenchel conjugate</h2><p>尽管Fenchel Duality可以对非凸的函数定义，我们这里仍然只考虑凸函数。一个凸函数$f: \mathbb{R}^n \mapsto \mathbb{R}$的次梯度$\partial f$可以看作从$\mathbb{R}^n$到$2^{\mathbb{R}^n}$的映射。现在的问题是，对于一个给定的$s\in \mathbb{R}^n$, 能否找到一个$x\in \mathbb{R}^n$使得$s\in \partial f(x)$呢。对于凸函数，这个问题就十分容易了,因为$0\in \partial f(x)-\{s\}$，于是实际上$x=\arg\inf_{x} (f(x)-\langle s,x\rangle)$。这里集合的加减法使用了<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Minkowski_addition">Minkowski sum</a>。看起来$\inf (f(x)-\langle s,x \rangle)$对我们的问题相当重要。事实上，这正是$f$的Fenchel dual的定义。</p>
+    <h2 id="1-Fenchel-conjugate"><a href="#1-Fenchel-conjugate" class="headerlink" title="1.Fenchel conjugate"></a>1.Fenchel conjugate</h2><p>尽管Fenchel Duality可以对非凸的函数定义，我们这里仍然只考虑凸函数。一个凸函数$f: \mathbb{R}^n \mapsto \mathbb{R}$的次梯度$\partial f$可以看作从$\mathbb{R}^n$到$2^{\mathbb{R}^n}$的映射。现在的问题是，对于一个给定的$s\in \mathbb{R}^n$, 能否找到一个$x\in \mathbb{R}^n$使得$s\in \partial f(x)$呢。对于凸函数，这个问题就十分容易了,因为$0\in \partial f(x)-\{s\}$，于是实际上$x=\arg\inf_{x} (f(x)-\langle s,x\rangle)$。这里集合的加减法使用了<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Minkowski_addition">Minkowski sum</a>。看起来$\inf (f(x)-\langle s,x \rangle)$对我们的问题相当重要。事实上，这正是$f$的Fenchel conjugate的定义。</p>
 <p><strong>定义1(Fenchel conjugate)</strong> 假设$f: \mathbb{R}^n \mapsto \mathbb{R}\cup{+\infty}$不恒为$+\infty$，且被某个仿射函数minorized。$f$的fenchel conjugate定义为$$f^*(s) = \sup \{ \langle s,x \rangle-f(x)| x\in \mbox{dom} f \}$$</p>
 <p><strong>定义2(Legendre-Fenchel变换)</strong> Legendre-Fenchel变换将$f$变为$f^*$</p>
 <p>上面的定义显然依赖于内积形式$\langle \cdot,\cdot \rangle$,不同的内积形式导出不同的定义。并且由Fenchel conjugate的定义，显然有下面的Fenchel不等式。</p>
 <p><strong>定理3(Fenchel不等式)</strong> 对任意$(x,s)\in \mbox{dom} f\times \mathbb{R}^n$, 有$f(x)+f^*(s)\geq \langle x,s \rangle$</p>
-<h2 id="Fenchel不等式与-L-p-范数以及Young不等式"><a href="#Fenchel不等式与-L-p-范数以及Young不等式" class="headerlink" title="Fenchel不等式与$L^p$范数以及Young不等式"></a>Fenchel不等式与$L^p$范数以及Young不等式</h2>
+<h2 id="2-Fenchel不等式与-L-p-范数以及Young不等式"><a href="#2-Fenchel不等式与-L-p-范数以及Young不等式" class="headerlink" title="2.Fenchel不等式与$L^p$范数以及Young不等式"></a>2.Fenchel不等式与$L^p$范数以及Young不等式</h2><p>Fenchel Duality与其它对偶概念有着密切的联系，我们不妨考虑$L^p$范数，具体地，考虑$f=\frac{1}{p} \| \cdot \|_p^p : x \mapsto \sum_{i} |x_i|^p$ . 对其做Legendre-Fenchel变换，得到$f^*(s) = \sup\{\langle s,x \rangle -\frac{1}{p}\sum_{i}x_i^p\}$, $\sup$在$x_i=\mbox{sgn}(s_i)|s_i|^{\frac{1}{p-1}}$时取到，所以$f^*(s)=(1-\frac{1}{p})\sum_i |s_i|^{\frac{p}{p-1}}$。 令$q = \frac{p}{p-1}$, 则$\frac{1}{p}+\frac{1}{q}=1$，并且$f^*(s)=\frac{1}{q}\|s\|_q^q$.</p>
+<p>Fenchel不等式于是给出$$\frac{1}{q}\|s\|_q^q+\frac{1}{p}\|x\|_p^p\geq \langle s,x \rangle$$<br>特别地，当$s,x$都是标量时，它退化成Young不等式</p>
+<p><strong>结论4(Young不等式)</strong> 若$s,x&gt;0$且$\frac{1}{p}+\frac{1}{q}=1$,则$\frac{s^q}{q}+\frac{x^p}{p}\geq pq$</p>
+<h2 id="3-Legendre-Fenchel变换作为一种Fourier变换"><a href="#3-Legendre-Fenchel变换作为一种Fourier变换" class="headerlink" title="3.Legendre-Fenchel变换作为一种Fourier变换"></a>3.Legendre-Fenchel变换作为一种Fourier变换</h2>
 </div> 
 
 <script>
@@ -179,6 +182,11 @@
     <nav class="post-nav">
         <div class="prev-item">
            
+                <div class="icon arrow-left"></div>
+                <div class="post-link">
+                    <a href="/2022/03/21/Mirror-Descent-%E5%9C%A8%E5%AF%B9%E5%81%B6%E7%A9%BA%E9%97%B4%E4%B8%AD%E5%81%9A%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D/">Prev</a>
+                </div>
+            
         </div>
         <div class="next-item">
             
@@ -211,7 +219,7 @@
     <div class="flex-container">
         <div class="footer-text">
             
-                wanzongqi20s@ict.ac.cn
+                wanzongqi20s@ict.ac.cn | Picture by Paul Klee
                 <br>
             
             
@@ -224,20 +232,5 @@
 
     </div>
 
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
-            processEscapes: true
-        }
-    });
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax();
-        for (var i = 0; i < all.length; ++i)
-            all[i].SourceElement().parentNode.className += ' has-jax';
-    });
-</script>
-<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-</body>
+  </body>
 </html>
