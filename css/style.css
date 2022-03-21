@@ -278,7 +278,7 @@ a {
 }
 body {
   font-family: 'Inter', 'Noto Sans SC', helvetica, arial;
-  font-size: 1rem;
+  font-size: 0.8125rem;
   font-weight: 400;
   line-height: 1.5rem;
   color: #002a56;
@@ -412,7 +412,7 @@ body {
 .post-list-item .post-title {
   flex-grow: 1;
   font-family: 'Inter', 'Noto Sans SC', helvetica, arial;
-  font-size: 1rem;
+  font-size: 0.8125rem;
   font-weight: 400;
   line-height: 1.5rem;
   color: #002a56;
@@ -461,7 +461,7 @@ body {
 }
 .post-gallery-item .post-info .post-title {
   margin-bottom: 0.75rem;
-  font-size: 1.75rem;
+  font-size: 1.625rem;
   font-weight: 700;
   line-height: 2.25rem;
   color: #002a56;
@@ -554,14 +554,14 @@ body {
   margin-bottom: 2rem;
 }
 .profile .profile-content .profile-title {
-  font-size: 1.75rem;
+  font-size: 1.625rem;
   font-weight: 700;
   line-height: 2.25rem;
   color: #002a56;
 }
 .profile .profile-content .profile-body {
   font-family: 'Inter', 'Noto Sans SC', helvetica, arial;
-  font-size: 1rem;
+  font-size: 0.8125rem;
   font-weight: 400;
   line-height: 1.5rem;
   color: #002a56;
@@ -602,63 +602,63 @@ h6 {
   margin-bottom: 0.75rem;
 }
 h1 {
-  font-size: 1.75rem;
+  font-size: 1.625rem;
   font-weight: 700;
   line-height: 2.25rem;
   color: #002a56;
 }
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.375rem;
   font-weight: 700;
   line-height: 2rem;
   color: #002a56;
 }
 h3 {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 1.5rem;
   color: #002a56;
 }
 h4 {
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 700;
   line-height: 1.25rem;
   color: #002a56;
 }
 h5 {
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 600;
   line-height: 1.25rem;
   color: #002a56;
 }
 h6 {
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 500;
   line-height: 1.25rem;
   color: #002a56;
 }
 p {
   font-family: 'Inter', 'Noto Sans SC', helvetica, arial;
-  font-size: 1rem;
+  font-size: 0.8125rem;
   font-weight: 400;
   line-height: 1.5rem;
   color: #002a56;
 }
 strong {
-  font-size: 1rem;
+  font-size: 0.8125rem;
   font-weight: 700;
   line-height: 1.5rem;
   color: #002a56;
 }
 em {
-  font-size: 1rem;
+  font-size: 0.8125rem;
   font-weight: 400;
   font-style: italic;
   line-height: 1.5rem;
   color: #002a56;
 }
 del {
-  font-size: 1rem;
+  font-size: 0.8125rem;
   font-weight: 400;
   line-height: 1.5rem;
   text-decoration: line-through;
@@ -696,7 +696,7 @@ blockquote blockquote {
 }
 .post-content li {
   font-family: 'Inter', 'Noto Sans SC', helvetica, arial;
-  font-size: 1rem;
+  font-size: 0.8125rem;
   font-weight: 400;
   line-height: 1.5rem;
   color: #002a56;
@@ -731,7 +731,7 @@ blockquote blockquote {
 }
 dl dt {
   padding: 0.5rem 0;
-  font-size: 1rem;
+  font-size: 0.8125rem;
   font-weight: 700;
   line-height: 1.5rem;
   color: #002a56;
@@ -752,7 +752,7 @@ dl dd {
 }
 .post-head .post-info .post-title {
   margin-bottom: 0.75rem;
-  font-size: 1.75rem;
+  font-size: 1.625rem;
   font-weight: 700;
   line-height: 2.25rem;
   color: #002a56;
@@ -815,18 +815,18 @@ dl dd {
 }
 .vcontent p {
   margin-top: 0 !important;
-  font-size: 0.875rem !important;
+  font-size: 0.8125rem !important;
   color: #002a56 !important;
 }
 code {
   font-family: 'Roboto Mono', menlo, monospace;
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
   line-height: 1rem;
   color: #0177aa;
 }
 .code pre span {
   font-family: 'Roboto Mono', menlo, monospace;
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
   line-height: 1rem;
   color: #7e7e7e;
 }
@@ -844,7 +844,7 @@ td.gutter {
 }
 td.gutter span {
   font-family: 'Roboto Mono', menlo, monospace;
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
   line-height: 1rem;
   color: #bababa;
 }
